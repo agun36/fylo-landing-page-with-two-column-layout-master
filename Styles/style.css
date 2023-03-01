@@ -105,30 +105,30 @@ header .location .location-content {
 header .location .location-content .location-text {
   opacity: 0.8;
 }
-header .location .location-content .grid-groups {
+header .location .location-content .grid-groups form {
   display: grid;
   gap: 1.2rem;
   gap: 1rem;
 }
 @media (min-width: 767px) {
-  header .location .location-content .grid-groups {
+  header .location .location-content .grid-groups form {
     display: flex;
   }
 }
-header .location .location-content .grid-groups .text {
+header .location .location-content .grid-groups form .text-input {
   padding: 0.5rem;
   border-radius: 6px;
   opacity: 0.4;
 }
-header .location .location-content .grid-groups input {
+header .location .location-content .grid-groups form input {
   padding: 0.7rem;
 }
 @media (min-width: 767px) {
-  header .location .location-content .grid-groups input {
+  header .location .location-content .grid-groups form input {
     width: 15rem;
   }
 }
-header .location .location-content .grid-groups .button {
+header .location .location-content .grid-groups form .button {
   border-radius: 6px;
   padding: 0.7rem;
   background-color: hsl(224, 93%, 58%);
@@ -136,11 +136,11 @@ header .location .location-content .grid-groups .button {
   color: hsl(240, 75%, 98%);
 }
 @media (min-width: 767px) {
-  header .location .location-content .grid-groups .button {
+  header .location .location-content .grid-groups form .button {
     width: 10rem;
   }
 }
-header .location .location-content .grid-groups .button:is(:hover, :focus) {
+header .location .location-content .grid-groups form .button:is(:hover, :focus) {
   background-color: hsl(243, 87%, 12%);
 }
 
@@ -284,31 +284,31 @@ blockquote {
     font-size: 1.2rem;
   }
 }
-blockquote .flex-group {
+blockquote .flex-group form {
   margin-top: 2rem;
   display: grid;
   gap: 1.2rem;
 }
-blockquote .flex-group input {
+blockquote .flex-group form input {
   padding: 0.7rem;
 }
 @media (min-width: 767px) {
-  blockquote .flex-group input {
+  blockquote .flex-group form input {
     width: 30rem;
   }
 }
-blockquote .flex-group .blockquote-button {
+blockquote .flex-group form .blockquote-button {
   border: 0;
   color: hsl(240, 75%, 98%);
   border-radius: 6px;
   padding: 0.7rem;
   background-color: hsl(224, 93%, 58%);
 }
-blockquote .flex-group .blockquote-button.blockquote-button:is(:hover, :focus) {
+blockquote .flex-group form .blockquote-button.blockquote-button:is(:hover, :focus) {
   background-color: hsl(243, 87%, 12%);
 }
 @media (min-width: 767px) {
-  blockquote .flex-group .blockquote-button {
+  blockquote .flex-group form .blockquote-button {
     width: 15rem;
   }
 }

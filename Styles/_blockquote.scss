@@ -19,26 +19,28 @@ blockquote {
     }
   }
   .flex-group {
-    margin-top: 2rem;
-    @include col-1();
+    form {
+      margin-top: 2rem;
+      @include col-1();
 
-    input {
-      padding: 0.7rem;
-      @media (min-width: 767px) {
-        width: 30rem;
+      input {
+        padding: 0.7rem;
+        @media (min-width: 767px) {
+          width: 30rem;
+        }
       }
-    }
-    .blockquote-button {
-      border: 0;
-      color: $Light-Grayish-Blue;
-      border-radius: 6px;
-      padding: 0.7rem;
-      background-color: $Bright-Blue;
-      &.blockquote-button:is(:hover, :focus) {
-        background-color: $Very-Dark-Blue;
-      }
-      @media (min-width: 767px) {
-        width: 15rem;
+      .blockquote-button {
+        border: 0;
+        color: $Light-Grayish-Blue;
+        border-radius: 6px;
+        padding: 0.7rem;
+        background-color: $Bright-Blue;
+        &.blockquote-button:is(:hover, :focus) {
+          background-color: $Very-Dark-Blue;
+        }
+        @media (min-width: 767px) {
+          width: 15rem;
+        }
       }
     }
   }

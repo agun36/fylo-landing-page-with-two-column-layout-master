@@ -35,34 +35,37 @@ header {
         opacity: 0.8;
       }
       .grid-groups {
-        @include col-1();
-        gap: 1rem;
-        @media (min-width: 767px) {
-          display: flex;
-        }
-        .text {
-          padding: 0.5rem;
-          border-radius: 6px;
-          opacity: 0.4;
-        }
-        input {
-          padding: 0.7rem;
+        form {
+          @include col-1();
+          gap: 1rem;
+
           @media (min-width: 767px) {
-            width: 15rem;
+            display: flex;
           }
-        }
-        .button {
-          border-radius: 6px;
-          padding: 0.7rem;
-          background-color: $Bright-Blue;
-          border: 0;
-          color: $Light-Grayish-Blue;
-          @media (min-width: 767px) {
-            width: 10rem;
+          .text-input {
+            padding: 0.5rem;
+            border-radius: 6px;
+            opacity: 0.4;
           }
-        }
-        .button:is(:hover, :focus) {
-          background-color: $Very-Dark-Blue;
+          input {
+            padding: 0.7rem;
+            @media (min-width: 767px) {
+              width: 15rem;
+            }
+          }
+          .button {
+            border-radius: 6px;
+            padding: 0.7rem;
+            background-color: $Bright-Blue;
+            border: 0;
+            color: $Light-Grayish-Blue;
+            @media (min-width: 767px) {
+              width: 10rem;
+            }
+          }
+          .button:is(:hover, :focus) {
+            background-color: $Very-Dark-Blue;
+          }
         }
       }
     }

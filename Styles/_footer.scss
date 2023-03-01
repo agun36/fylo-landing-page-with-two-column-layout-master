@@ -1,0 +1,47 @@
+@import 'variables';
+
+footer {
+  background-color: $Very-Dark-Blue;
+  line-height: 1.7;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  .footer-logo {
+    padding-block: 2rem;
+  }
+
+  .footer-wrapper {
+    // margin: 2rem;
+    ul {
+      li {
+        a {
+          color: $Light-Grayish-Blue;
+        }
+      }
+    }
+    @media (min-width: 767px) {
+      margin-block: 4rem;
+      // @include container();
+      @include flex();
+      justify-content: space-between;
+    }
+  }
+  .footer4 {
+    @include flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: auto;
+    li {
+      border: 1px solid $Light-Grayish-Blue;
+      border-radius: 50%;
+      height: 45px;
+      width: 45px;
+      font-size: 18px;
+      @include flex-center;
+      .fa {
+        color: $Light-Grayish-Blue;
+      }
+    }
+  }
+}

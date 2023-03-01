@@ -1,0 +1,52 @@
+@import 'variables';
+
+blockquote {
+  background-color: $Desaturated-Blue;
+  padding: 5rem 2.5rem;
+  @media (min-width: 767px) {
+    .blockqoute-wrapper {
+      @media (min-width: 767px) {
+        // @include container();
+        @include col-2();
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      .blockquote-content {
+        h4 {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+  .flex-group {
+    margin-top: 2rem;
+    @include col-1();
+
+    input {
+      padding: 0.7rem;
+      @media (min-width: 767px) {
+        width: 30rem;
+      }
+    }
+    .blockquote-button {
+      border: 0;
+      color: $Light-Grayish-Blue;
+      border-radius: 6px;
+      padding: 0.7rem;
+      background-color: $Bright-Blue;
+      &.blockquote-button:is(:hover, :focus) {
+        background-color: $Very-Dark-Blue;
+      }
+      @media (min-width: 767px) {
+        width: 15rem;
+      }
+    }
+  }
+}
+.blockquote-content {
+  color: $Light-Grayish-Blue;
+  h4 {
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+}

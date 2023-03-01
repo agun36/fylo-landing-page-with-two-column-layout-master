@@ -1,0 +1,69 @@
+@import 'variables';
+
+header {
+  .nav {
+    @include flex-space-between();
+    @include container();
+    padding: 2.5rem 1.5rem;
+    .nav-list {
+      @include flex-row();
+      gap: 1.2rem;
+      li a {
+        color: $Very-Dark-Blue;
+      }
+    }
+  }
+  .location {
+    @include flex-direction-column();
+    @include flex-direction-column-reverse();
+    align-items: center;
+    gap: 1.8rem;
+    @include text-center();
+    @include container();
+    @media (min-width: 767px) {
+      flex-direction: row;
+      text-align: left;
+      align-items: center;
+    }
+    .location-content {
+      @include col-1();
+      gap: 1rem;
+      // .location-title {
+      // }
+      .location-text {
+        opacity: 0.8;
+      }
+      .grid-groups {
+        @include col-1();
+        gap: 1rem;
+        @media (min-width: 767px) {
+          display: flex;
+        }
+        .text {
+          padding: 0.5rem;
+          border-radius: 6px;
+          opacity: 0.4;
+        }
+        input {
+          padding: 0.7rem;
+          @media (min-width: 767px) {
+            width: 15rem;
+          }
+        }
+        .button {
+          border-radius: 6px;
+          padding: 0.7rem;
+          background-color: $Bright-Blue;
+          border: 0;
+          color: $Light-Grayish-Blue;
+          @media (min-width: 767px) {
+            width: 10rem;
+          }
+        }
+        .button:is(:hover, :focus) {
+          background-color: $Very-Dark-Blue;
+        }
+      }
+    }
+  }
+}

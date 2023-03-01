@@ -1,0 +1,29 @@
+@import 'variables';
+.cards {
+  // gap: 2rem;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: white;
+  .cards-content {
+    @include col-1();
+    max-width: 30rem;
+    padding: 1.5rem 2rem;
+    .card-text {
+      color: $Very-Dark-Blue;
+    }
+    .flex-group {
+      @include flex-row();
+      align-items: center;
+      column-gap: 1.2rem;
+      img {
+        border-radius: 50%;
+        height: 2.5rem;
+        width: 2.5rem;
+        object-fit: contain;
+      }
+      small {
+        opacity: 0.8;
+      }
+    }
+  }
+}

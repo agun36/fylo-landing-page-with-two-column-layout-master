@@ -106,26 +106,19 @@ header .location .location-content .location-text {
   opacity: 0.8;
 }
 header .location .location-content .grid-groups form {
+  text-align: center;
   display: grid;
   gap: 1.2rem;
-  gap: 1rem;
-}
-@media (min-width: 767px) {
-  header .location .location-content .grid-groups form {
-    display: flex;
-  }
 }
 header .location .location-content .grid-groups form .text-input {
-  padding: 0.5rem;
+  width: 100%;
+  padding: 0.7rem;
   border-radius: 6px;
   opacity: 0.4;
 }
-header .location .location-content .grid-groups form input {
-  padding: 0.7rem;
-}
 @media (min-width: 767px) {
-  header .location .location-content .grid-groups form input {
-    width: 15rem;
+  header .location .location-content .grid-groups form .text-input.text-input {
+    width: 20rem;
   }
 }
 header .location .location-content .grid-groups form .button {
@@ -142,6 +135,13 @@ header .location .location-content .grid-groups form .button {
 }
 header .location .location-content .grid-groups form .button:is(:hover, :focus) {
   background-color: hsl(243, 87%, 12%);
+}
+@media (min-width: 767px) {
+  header .location .location-content .grid-groups form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
 }
 
 /*color need for the project*/
@@ -285,12 +285,13 @@ blockquote {
   }
 }
 blockquote .flex-group form {
-  margin-top: 2rem;
   display: grid;
   gap: 1.2rem;
+  margin-top: 2rem;
 }
 blockquote .flex-group form input {
   padding: 0.7rem;
+  width: 100%;
 }
 @media (min-width: 767px) {
   blockquote .flex-group form input {

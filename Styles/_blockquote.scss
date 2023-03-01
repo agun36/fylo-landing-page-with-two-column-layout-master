@@ -20,11 +20,13 @@ blockquote {
   }
   .flex-group {
     form {
-      margin-top: 2rem;
       @include col-1();
+
+      margin-top: 2rem;
 
       input {
         padding: 0.7rem;
+        width: 100%;
         @media (min-width: 767px) {
           width: 30rem;
         }

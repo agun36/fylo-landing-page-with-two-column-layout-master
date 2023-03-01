@@ -5,7 +5,7 @@ header {
     @include flex-space-between();
     align-items: center;
     @include container();
-    padding: 2rem 1.5rem;
+    padding: 2rem;
     .nav-list {
       @include flex-row();
       gap: 1.2rem;

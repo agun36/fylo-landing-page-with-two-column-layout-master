@@ -6,7 +6,7 @@ header .nav {
   align-items: center;
   margin-inline: auto;
   max-width: 1400px;
-  padding: 2rem 1.5rem;
+  padding: 2rem;
 }
 @media screen and (max-width: 1500px) {
   header .nav {

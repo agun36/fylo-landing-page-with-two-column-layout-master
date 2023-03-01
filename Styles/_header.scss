@@ -7,6 +7,7 @@ header {
     padding: 2rem;
     .nav-list {
       @include flex-row();
+      font-size: 1rem;
       gap: 1.2rem;
       li a {
         color: $Very-Dark-Blue;

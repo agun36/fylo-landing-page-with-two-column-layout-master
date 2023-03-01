@@ -3,7 +3,7 @@
 header {
   .nav {
     @include flex-space-between();
-    @include container();
+    align-items: center @include container();
     padding: 2rem 1.5rem;
     .nav-list {
       @include flex-row();

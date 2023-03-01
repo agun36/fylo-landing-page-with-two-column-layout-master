@@ -324,7 +324,7 @@ blockquote .flex-group .blockquote-button.blockquote-button:is(:hover, :focus) {
 footer {
   background-color: hsl(243, 87%, 12%);
   line-height: 1.7;
-  padding: 2rem;
+  padding: 1.5rem;
   display: flex;
   flex-direction: column;
 }

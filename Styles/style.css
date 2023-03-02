@@ -38,6 +38,10 @@ header .nav {
     padding: 2rem;
   }
 }
+header .nav .logo img {
+  width: 166px;
+  height: 49px;
+}
 header .nav .nav-list {
   display: flex;
   flex-direction: row;

@@ -5,6 +5,12 @@ header {
     @include flex-space-between();
     @include container();
     padding: 2rem;
+    .logo {
+      img {
+        width: 166px;
+        height: 49px;
+      }
+    }
     .nav-list {
       @include flex-row();
 

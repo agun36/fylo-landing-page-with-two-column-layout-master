@@ -1,43 +1,45 @@
 /*color need for the project*/
+header {
+  margin-inline: auto;
+  max-width: 1400px;
+}
+@media screen and (max-width: 1500px) {
+  header {
+    max-width: 1300px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  header {
+    max-width: 1200px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  header {
+    max-width: 1000px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  header {
+    max-width: 800px;
+  }
+}
+@media screen and (max-width: 850px) {
+  header {
+    max-width: 600px;
+  }
+}
+@media screen and (max-width: 650px) {
+  header {
+    max-width: 100%;
+    padding: 2rem;
+  }
+}
 header .nav {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-inline: auto;
-  max-width: 1400px;
   padding: 1.5rem;
-}
-@media screen and (max-width: 1500px) {
-  header .nav {
-    max-width: 1300px;
-  }
-}
-@media screen and (max-width: 1400px) {
-  header .nav {
-    max-width: 1200px;
-  }
-}
-@media screen and (max-width: 1350px) {
-  header .nav {
-    max-width: 1000px;
-  }
-}
-@media screen and (max-width: 1050px) {
-  header .nav {
-    max-width: 800px;
-  }
-}
-@media screen and (max-width: 850px) {
-  header .nav {
-    max-width: 600px;
-  }
-}
-@media screen and (max-width: 650px) {
-  header .nav {
-    max-width: 100%;
-    padding: 2rem;
-  }
 }
 header .nav .logo img {
   width: 166px;

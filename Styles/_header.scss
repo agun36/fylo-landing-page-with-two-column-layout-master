@@ -1,8 +1,8 @@
 @import 'variables';
 
 header {
-  @include container();
   .nav {
+    @include container();
     @include flex-space-between();
     padding: 1.5rem;
 

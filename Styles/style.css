@@ -29,7 +29,7 @@ header .nav {
 }
 @media screen and (max-width: 850px) {
   header .nav {
-    max-width: 600px;
+    max-width: 700px;
   }
 }
 @media screen and (max-width: 650px) {
@@ -82,7 +82,7 @@ header .location {
 }
 @media screen and (max-width: 850px) {
   header .location {
-    max-width: 600px;
+    max-width: 700px;
   }
 }
 @media screen and (max-width: 650px) {
@@ -185,7 +185,7 @@ header .location .location-content .grid-groups form .button:is(:hover, :focus) 
 }
 @media screen and (max-width: 850px) {
   .product .product-description {
-    max-width: 600px;
+    max-width: 700px;
   }
 }
 @media screen and (max-width: 650px) {

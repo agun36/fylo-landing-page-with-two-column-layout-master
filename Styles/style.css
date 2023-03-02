@@ -35,10 +35,43 @@ header {
   }
 }
 header .nav {
+  margin-inline: auto;
+  max-width: 1400px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+}
+@media screen and (max-width: 1500px) {
+  header .nav {
+    max-width: 1300px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  header .nav {
+    max-width: 1200px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  header .nav {
+    max-width: 1000px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  header .nav {
+    max-width: 800px;
+  }
+}
+@media screen and (max-width: 850px) {
+  header .nav {
+    max-width: 600px;
+  }
+}
+@media screen and (max-width: 650px) {
+  header .nav {
+    max-width: 100%;
+    padding: 2rem;
+  }
 }
 header .nav .logo img {
   width: 70px;

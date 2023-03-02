@@ -3,6 +3,7 @@
 header {
   @include container();
   .nav {
+    @include container();
     @include flex-space-between();
     padding: 10px;
     .logo img {

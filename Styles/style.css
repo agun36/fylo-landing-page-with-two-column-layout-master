@@ -39,8 +39,8 @@ header .nav {
   }
 }
 header .nav .nav-list {
-  display: grid;
-  grid-template-columns: repeat(3, 80px);
+  display: flex;
+  flex-direction: row;
   gap: 0.8rem;
 }
 header .nav .nav-list li a {

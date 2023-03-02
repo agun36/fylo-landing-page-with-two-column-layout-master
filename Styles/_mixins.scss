@@ -32,7 +32,7 @@
   border-radius: $radius;
 }
 @mixin container {
-  margin-inline: auto;
+  // margin-inline: auto;
   max-width: 1400px;
 
   @media screen and (max-width: 1500px) {

@@ -35,7 +35,6 @@ header .nav {
 @media screen and (max-width: 650px) {
   header .nav {
     max-width: 100%;
-    padding: 1.5rem;
   }
 }
 header .nav .nav-list {
@@ -88,7 +87,6 @@ header .location {
 @media screen and (max-width: 650px) {
   header .location {
     max-width: 100%;
-    padding: 1.5rem;
   }
 }
 @media (min-width: 767px) {
@@ -191,7 +189,6 @@ header .location .location-content .grid-groups form .button:is(:hover, :focus) 
 @media screen and (max-width: 650px) {
   .product .product-description {
     max-width: 100%;
-    padding: 1.5rem;
   }
 }
 @media (min-width: 767px) {

@@ -41,8 +41,7 @@ header .nav {
   padding: 1.5rem;
 }
 header .nav .logo img {
-  height: 49px;
-  width: 166px;
+  width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }

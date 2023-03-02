@@ -38,12 +38,12 @@ header .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 2rem;
 }
 header .nav .nav-list {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  padding: 2rem;
 }
 header .nav .nav-list li a {
   font-size: 1rem;

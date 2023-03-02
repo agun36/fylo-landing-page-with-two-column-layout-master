@@ -13,11 +13,9 @@ header {
     }
     .nav-list {
       @include flex-row();
-      // display: inline-flex;
-      column-gap: 0.355rem;
-      // font-size: 1rem;
-      // gap: 0.4rem;
+      column-gap: 0.4rem;
       li a {
+        font-size: 1rem;
         color: $Very-Dark-Blue;
       }
     }

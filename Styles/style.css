@@ -45,10 +45,11 @@ header .nav .logo img {
 header .nav .nav-list {
   display: flex;
   flex-direction: row;
-  -moz-column-gap: 0.355rem;
-       column-gap: 0.355rem;
+  -moz-column-gap: 0.4rem;
+       column-gap: 0.4rem;
 }
 header .nav .nav-list li a {
+  font-size: 1rem;
   color: hsl(243, 87%, 12%);
 }
 header .location {

@@ -9,14 +9,14 @@ header {
       img {
         width: 166px;
         height: 49px;
-        font-size: 1rem;
       }
     }
     .nav-list {
       @include flex-row();
-
+      // display: inline-flex;
+      column-gap: 0.5rem;
       // font-size: 1rem;
-      gap: 0.4rem;
+      // gap: 0.4rem;
       li a {
         color: $Very-Dark-Blue;
       }

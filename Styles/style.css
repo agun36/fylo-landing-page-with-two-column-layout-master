@@ -41,12 +41,12 @@ header .nav {
 header .nav .logo img {
   width: 166px;
   height: 49px;
-  font-size: 1rem;
 }
 header .nav .nav-list {
   display: flex;
   flex-direction: row;
-  gap: 0.4rem;
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
 }
 header .nav .nav-list li a {
   color: hsl(243, 87%, 12%);

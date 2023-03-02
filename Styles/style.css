@@ -35,15 +35,10 @@ header {
   }
 }
 header .nav {
-  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem 1rem;
-}
-header .nav .logo img {
-  width: 166px;
-  height: 49px;
 }
 header .nav .nav-list {
   display: flex;

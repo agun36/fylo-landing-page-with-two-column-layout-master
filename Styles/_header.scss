@@ -5,7 +5,7 @@ header {
   .nav {
     width: 100%;
     @include flex-space-between();
-    padding: 1.5rem;
+    padding: 1.5rem 1rem;
     .logo {
       img {
         width: 166px;

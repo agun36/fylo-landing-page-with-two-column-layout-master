@@ -1,5 +1,6 @@
 /*color need for the project*/
 header .nav {
+  margin-inline: auto;
   max-width: 1400px;
   display: flex;
   justify-content: space-between;
@@ -56,6 +57,7 @@ header .location {
   align-items: center;
   gap: 1.8rem;
   text-align: center;
+  margin-inline: auto;
   max-width: 1400px;
 }
 @media screen and (max-width: 1500px) {
@@ -157,6 +159,7 @@ header .location .location-content .grid-groups form .button:is(:hover, :focus) 
 .product .product-description {
   display: flex;
   flex-direction: column-reverse;
+  margin-inline: auto;
   max-width: 1400px;
   padding-block: 3.5rem;
 }

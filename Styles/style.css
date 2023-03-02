@@ -43,6 +43,8 @@ header .nav {
 header .nav .logo img {
   height: 49px;
   width: 166px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 header .nav .nav-list {
   display: flex;

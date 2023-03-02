@@ -13,12 +13,15 @@ header {
       text-align: right;
       .nav-list {
         display: flex;
-        // flex-wrap: wrap;
+        flex-wrap: wrap;
         gap: 0.5rem;
         font-size: 20px;
         li a {
           font-size: 1rem;
           color: $Very-Dark-Blue;
+        }
+        @media (min-width: 767px) {
+          flex-wrap: nowrap;
         }
       }
     }

@@ -49,12 +49,18 @@ header .nav .links {
 }
 header .nav .links .nav-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 0.5rem;
   font-size: 20px;
 }
 header .nav .links .nav-list li a {
   font-size: 1rem;
   color: hsl(243, 87%, 12%);
+}
+@media (min-width: 767px) {
+  header .nav .links .nav-list {
+    flex-wrap: nowrap;
+  }
 }
 header .location {
   display: flex;

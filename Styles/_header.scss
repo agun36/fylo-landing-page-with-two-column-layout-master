@@ -6,11 +6,6 @@ header {
     width: 100%;
     @include flex-space-between();
     padding: 1.5rem 1rem;
-    .logo {
-      img {
-        width: 166px;
-        height: 49px;
-      }
     }
     .nav-list {
       @include flex-row();

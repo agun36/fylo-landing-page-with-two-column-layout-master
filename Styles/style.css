@@ -41,10 +41,9 @@ header .nav {
   padding: 1.5rem;
 }
 header .nav .nav-list {
-  -moz-column-count: 3;
-       column-count: 3;
-  -moz-column-gap: 0.4rem;
-       column-gap: 0.4rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
 header .nav .nav-list li a {
   font-size: 1rem;

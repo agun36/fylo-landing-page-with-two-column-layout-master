@@ -43,8 +43,8 @@ header .nav {
 header .nav .nav-list {
   display: flex;
   flex-direction: row;
-  -moz-column-gap: 0.4rem;
-       column-gap: 0.4rem;
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
 }
 header .nav .nav-list li a {
   font-size: 1rem;

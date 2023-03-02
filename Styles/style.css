@@ -38,7 +38,7 @@ header .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem 1rem;
+  padding: 1.5rem;
 }
 header .nav .nav-list {
   display: flex;

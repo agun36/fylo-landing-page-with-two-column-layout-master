@@ -4,7 +4,7 @@ header {
   @include container();
   .nav {
     @include flex-space-between();
-    padding: 1.5rem 1rem;
+    padding: 1.5rem;
 
     .nav-list {
       @include flex-row();

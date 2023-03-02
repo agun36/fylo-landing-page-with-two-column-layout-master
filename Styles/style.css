@@ -1,5 +1,6 @@
 /*color need for the project*/
 header .nav {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;

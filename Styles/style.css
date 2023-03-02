@@ -40,11 +40,6 @@ header .nav {
   align-items: center;
   padding: 1.5rem;
 }
-header .nav .logo img {
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
 header .nav .nav-list {
   display: flex;
   flex-direction: row;

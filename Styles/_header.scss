@@ -5,12 +5,7 @@ header {
   .nav {
     @include flex-space-between();
     padding: 1.5rem;
-    .logo {
-      img {
-        width: 100%;
-        object-fit: cover;
-      }
-    }
+
     .nav-list {
       @include flex-row();
 

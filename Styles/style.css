@@ -40,6 +40,10 @@ header .nav {
   align-items: center;
   padding: 10px;
 }
+header .nav .logo img {
+  width: 70px;
+  height: auto;
+}
 header .nav .links {
   text-align: right;
 }

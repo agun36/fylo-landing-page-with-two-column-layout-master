@@ -32,7 +32,7 @@ header {
     align-items: center;
     gap: 1.8rem;
     @include text-center();
-    // @include container();
+    @include container();
     @media (min-width: 767px) {
       flex-direction: row;
       text-align: left;

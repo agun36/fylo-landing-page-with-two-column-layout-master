@@ -40,13 +40,16 @@ header .nav {
   align-items: center;
   padding: 10px;
 }
-header .nav .nav-list {
+header .nav .links {
+  text-align: right;
+}
+header .nav .links .nav-list {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
   font-size: 20px;
 }
-header .nav .nav-list li a {
+header .nav .links .nav-list li a {
   font-size: 1rem;
   color: hsl(243, 87%, 12%);
 }

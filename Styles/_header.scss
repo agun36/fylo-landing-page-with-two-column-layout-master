@@ -5,14 +5,17 @@ header {
   .nav {
     @include flex-space-between();
     padding: 10px;
-    .nav-list {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-      font-size: 20px;
-      li a {
-        font-size: 1rem;
-        color: $Very-Dark-Blue;
+    .links {
+      text-align: right;
+      .nav-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        font-size: 20px;
+        li a {
+          font-size: 1rem;
+          color: $Very-Dark-Blue;
+        }
       }
     }
   }

@@ -45,8 +45,8 @@ header .nav .logo img {
 header .nav .nav-list {
   display: flex;
   flex-direction: row;
-  -moz-column-gap: 0.5rem;
-       column-gap: 0.5rem;
+  -moz-column-gap: 0.355rem;
+       column-gap: 0.355rem;
 }
 header .nav .nav-list li a {
   color: hsl(243, 87%, 12%);
